@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #171717;
+  min-height: 100vh;
+  width: 100%;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comfortaa", sans-serif;
+}
+
+section div.line {
+  width: 3px;
+  height: 50px;
+  background-color: aquamarine;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+section p {
+  opacity: 0;
+}
