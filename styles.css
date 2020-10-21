@@ -20,6 +20,7 @@ section div.line {
   background-color: aquamarine;
   margin-top: 10px;
   border-radius: 10px;
+  box-shadow: 2px 1px 12px aquamarine;
   margin-bottom: 10px;
 }
 
