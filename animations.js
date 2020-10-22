@@ -1,3 +1,7 @@
+// document.addEventListener("contextmenu", function (e) {
+//   e.preventDefault();
+// });
+
 const timeline = gsap.timeline({ defaults: { duration: 0.7 } });
 timeline.to("#p1", { x: -15, opacity: 1 });
 timeline.fromTo(

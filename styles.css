@@ -7,11 +7,19 @@ body {
   flex-direction: column;
   background-color: #171717;
   min-height: 100vh;
-  width: 100%;
   color: aliceblue;
   justify-content: center;
   align-items: center;
   font-family: "Comfortaa", sans-serif;
+}
+
+#particles-js {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  z-index: 2;
 }
 
 section div.line {
@@ -20,7 +28,7 @@ section div.line {
   background-color: aquamarine;
   margin-top: 10px;
   border-radius: 10px;
-  box-shadow: 2px 1px 12px aquamarine;
+  box-shadow: 1px 1px 8px rgb(21, 168, 119);
   margin-bottom: 10px;
 }
 
