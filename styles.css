@@ -21,6 +21,32 @@ body {
   width: 50%;
   z-index: 2;
 }
+h1 {
+  font-family: "Poiret One", sans-serif;
+  font-size: 5rem;
+  align-self: flex-start;
+  padding: 30px;
+  padding-bottom: 10px;
+  margin-top: -10%;
+}
+.links {
+  align-self: flex-start;
+  margin-left: 6%;
+  padding-bottom: 5%;
+}
+.links a {
+  text-decoration: none;
+}
+.links i {
+  font-size: 2.5rem;
+  color: rgba(240, 240, 240, 1);
+  text-shadow: 0 0 5px rgba(150, 150, 150, 0.6);
+  margin-right: 2rem;
+}
+
+.links i:hover {
+  text-shadow: none;
+}
 
 section div.line {
   width: 3px;
