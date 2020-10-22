@@ -11,6 +11,12 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Comfortaa", sans-serif;
+  font-size: 0.9rem;
+  overflow-x: hidden;
+}
+
+span.highlight {
+  text-shadow: 0 0 5px rgba(150, 150, 150, 0.6);
 }
 
 #particles-js {
@@ -18,17 +24,29 @@ body {
   right: 0;
   top: 0;
   height: 100%;
-  width: 50%;
+  width: 58%;
   z-index: 2;
 }
+header {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 2px solid rgb(131, 145, 156);
+  margin-left: 20px;
+}
+
 h1 {
   font-family: "Poiret One", sans-serif;
   font-size: 5rem;
-  align-self: flex-start;
-  padding: 30px;
+  padding-left: 30px;
   padding-bottom: 10px;
-  margin-top: -10%;
 }
+
 .links {
   align-self: flex-start;
   margin-left: 6%;
@@ -60,4 +78,17 @@ section div.line {
 
 section p {
   opacity: 0;
+}
+section {
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (max-width: 700px) {
+  img {
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+  }
 }
