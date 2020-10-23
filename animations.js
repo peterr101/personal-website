@@ -1,6 +1,6 @@
-// document.addEventListener("contextmenu", function (e) {
-//   e.preventDefault();
-// });
+document.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+});
 
 const dates = document.querySelectorAll(".date-event");
 dates.forEach((date) => {
