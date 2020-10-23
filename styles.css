@@ -15,6 +15,17 @@ body {
   overflow-x: hidden;
 }
 
+span.date {
+  font-style: italic;
+  margin-left: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+span.date.showing {
+  opacity: 0.7;
+  transition: opacity 0.7s linear;
+}
+
 span.highlight {
   text-shadow: 0 0 5px rgba(150, 150, 150, 0.6);
 }
