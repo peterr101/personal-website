@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./paralax.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
     />
@@ -13,61 +14,92 @@
     />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+
     />
     <title>{Peter's}{info}</title>
   </head>
   <body>
-    <div id="particles-js"></div>
-    <header>
-        <h1>Peter Rassias</h1>
-        <img src="img/self.JPG" alt="self-pic" ></img>
-    </header>
-    <div class="links">
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/peter-rassias-16a7251b3/"
-        ><i class="fa fa-linkedin-square" aria-hidden="true"></i>
-      </a>
-      <a target="_blank" href="https://github.com/peterr101"
-        ><i class="fa fa-github" aria-hidden="true"></i>
-      </a>
-      <a href="mailto:prassias@alumni.ubc.ca"
-        ><i class="fa fa-envelope-o" aria-hidden="true"></i
-      ></a>
+    <div class="timeframe">
+      <div id="particles-js"></div>
+      <header>
+          <h1>Peter Rassias</h1>
+          <img src="img/self.JPG" alt="self-pic" ></img>
+      </header>
+      <div class="links">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/peter-rassias-16a7251b3/"
+          ><i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+        </a>
+        <a target="_blank" href="https://github.com/peterr101"
+          ><i class="fa-brands fa-github" aria-hidden="true"></i>
+        </a>
+        <a href="mailto:prassias@alumni.ubc.ca"
+          ><i class="fa-solid fa-envelope" aria-hidden="true"></i
+        ></a>
+      </div>
+      <section>
+        <p id="p1">
+          currently, a full stack software developer at
+          <span class="highlight">Fortinet</span>.
+        </p>
+        <div id="line1" class="line"></div>
+        <p id="p2" class="date-event">
+          full stack software developer (intern) at
+          <span class="highlight">Tasktop Technologies</span>. <span class="date">(2018-2019)</span>
+        </p>
+        <div id="line2" class="line"></div>
+        <p id="p3" class="date-event">
+          B.Sc. [computer science] with distinction at the
+          <span class="highlight">University of British Columbia</span>. <span class="date">(2017-2020)</span>
+        </p>
+        <div id="line3" class="line"></div>
+        <p id="p4" class="date-event">
+          NSERC funded undergraduate reasercher in an evolutionary lab at the
+          <span class="highlight">University of British Columbia</span>.<span class="date">(2016)</span>
+        </p>
+        <div id="line4" class="line"></div>
+        <p id="p5" class="date-event">
+          B.Sc. [biology] with distinction at the
+          <span class="highlight">University of British Columbia</span>.
+          <span class="date">(2012-2016)</span>
+        </p>
+      </section>
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+      <script src="./animations.js"></script>
+      <script src="./app.js"></script>
+  </div>
+  <div class="experience">
+    <div class="parallax-layer experience">
+      <div class="lower">Technical <br> Experience </div>
     </div>
-    <section>
-      <p id="p1">
-        currently, a full stack software developer at
-        <span class="highlight">Fortinet</span>.
-      </p>
-      <div id="line1" class="line"></div>
-      <p id="p2" class="date-event">
-        full stack software developer (intern) at
-        <span class="highlight">Tasktop Technologies</span>. <span class="date">(2018-2019)</span>
-      </p>
-      <div id="line2" class="line"></div>
-      <p id="p3" class="date-event">
-        B.Sc. [computer science] with distinction at the
-        <span class="highlight">University of British Columbia</span>. <span class="date">(2017-2020)</span>
-      </p>
-      <div id="line3" class="line"></div>
-      <p id="p4" class="date-event">
-        NSERC funded undergraduate reasercher in an evolutionary lab at the
-        <span class="highlight">University of British Columbia</span>.<span class="date">(2016)</span>
-      </p>
-      <div id="line4" class="line"></div>
-      <p id="p5" class="date-event">
-        B.Sc. [biology] with distinction at the
-        <span class="highlight">University of British Columbia</span>.
-        <span class="date">(2012-2016)</span>
-      </p>
-    </section>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="./animations.js"></script>
-    <script src="./app.js"></script>
+    <div class="parallax-layer base">
+      <div>
+        <i class="fa-brands fa-square-js" aria-hidden="true"></i>
+        <i class="fa-brands fa-java" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-node" aria-hidden="true"></i>
+        <i class="fa-brands fa-gitlab" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa-solid fa-c" aria-hidden="true"></i>
+        <i class="fa-brands fa-python" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-git" aria-hidden="true"></i>
+        <i class="fa-brands fa-angular" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa-brands fa-html5" aria-hidden="true"></i>
+        <i class="fa-brands fa-react" aria-hidden="true"></i>
+      </div>
+      <div>
+        <i class="fa-solid fa-database" aria-hidden="true"></i>
+      </div>
+    </div>
+  </div>
   </body>
 </html>

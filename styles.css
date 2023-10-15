@@ -1,17 +1,17 @@
-* {
+body {
   margin: 0;
+  font-family: "Comfortaa", sans-serif;
 }
 
-body {
+.timeframe {
   display: flex;
   flex-direction: column;
-  background-color: #171717;
   min-height: 100vh;
   color: aliceblue;
   justify-content: center;
   align-items: center;
-  font-family: "Comfortaa", sans-serif;
   font-size: 0.9rem;
+  background-color: #171717;
   overflow-x: hidden;
 }
 
@@ -36,7 +36,7 @@ span.highlight {
   top: 0;
   height: 100%;
   width: 58%;
-  z-index: 2;
+  z-index: 1;
 }
 header {
   align-self: flex-start;
@@ -94,6 +94,14 @@ section {
   padding-left: 9%;
   padding-right: 9%;
   padding-bottom: 5%;
+}
+
+.date-event:hover {
+  cursor: e-resize;
+}
+
+.lower {
+  padding-top: 0.2em;
 }
 
 @media only screen and (max-width: 700px) {
